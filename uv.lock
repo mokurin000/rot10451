@@ -464,16 +464,8 @@ dependencies = [
     { name = "streamlit" },
 ]
 
-[package.dev-dependencies]
-dev = [
-    { name = "rot10451" },
-]
-
 [package.metadata]
 requires-dist = [{ name = "streamlit", specifier = ">=1.44.1" }]
-
-[package.metadata.requires-dev]
-dev = [{ name = "rot10451", virtual = "." }]
 
 [[package]]
 name = "rpds-py"
